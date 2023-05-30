@@ -6,9 +6,9 @@ Create a websocket application that handles session authentication, retrieves a 
 ## Requirements
 
 1. When a client establishes a websocket connection, the server should generate a UUID token for the session and return it to the client.
-2. The websocket should send a response containing the catalog of products available for sale upon successful authentication.
-3. The client should be able to interact with the catalog by selecting items, navigating through pages, or specifying a page number.
-4. The server should handle the client's actions and respond accordingly, providing the requested information.
+2. The websocket should send a response containing the catalog of products available for sale upon successful authentication. The catalog should be fetched from the "https://fakestoreapi.com/products" API.
+4. The client should be able to interact with the catalog by selecting items, navigating through pages, or specifying a page number.
+5. The server should handle the client's actions and respond accordingly, providing the requested information.
 
 ## Example WebSocket Connection
 
